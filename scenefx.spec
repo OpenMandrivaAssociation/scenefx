@@ -52,7 +52,7 @@ This package contains development files for %{name}.
 %meson_install
 
 %files -n %{libname}
-%{_libdir}/%{name}-0.%{api}.so
+#{_libdir}/%{name}-0.%{api}.so
 
 %files -n %{devname}
 %{_includedir}/scenefx-0.%{api}/

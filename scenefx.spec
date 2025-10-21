@@ -1,4 +1,4 @@
-%define api 4
+%define api 0.4
 %define libname %mklibname scenefx
 %define devname %mklibname -d scenefx
 
@@ -52,8 +52,8 @@ This package contains development files for %{name}.
 %meson_install
 
 %files -n %{libname}
-#{_libdir}/%{name}-0.%{api}.so
+%{_libdir}/%{name}-%{api}.so
 
 %files -n %{devname}
-%{_includedir}/scenefx-0.%{api}/
-%{_libdir}/pkgconfig/scenefx-0.%{api}.pc
+%{_includedir}/scenefx-%{api}/
+%{_libdir}/pkgconfig/scenefx-%{api}.pc

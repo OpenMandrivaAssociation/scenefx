@@ -13,6 +13,7 @@ Url:      https://github.com/wlrfx/scenefx
 Source0: https://github.com/wlrfx/scenefx/archive/%{version}/%{name}-%{version}.tar.gz
 
 BuildRequires: meson
+BuildRequires: glslang
 BuildRequires: pkgconfig(wayland-protocols) >= 1.27
 BuildRequires: pkgconfig(wayland-server) >= 1.22.0
 BuildRequires: pkgconfig(wlroots-0.19)
@@ -52,7 +53,7 @@ This package contains development files for %{name}.
 %meson_install
 
 %files -n %{libname}
-%{_libdir}/%{name}-%{api}.so
+%{_libdir}/lib%{name}-%{api}.so
 
 %files -n %{devname}
 %{_includedir}/scenefx-%{api}/

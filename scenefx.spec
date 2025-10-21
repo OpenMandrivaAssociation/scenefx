@@ -28,6 +28,7 @@ BuildRequires: pkgconfig(xcb-ewmh)
 
 %package -n %{libname}
 Summary:        Shared library for %{name}
+Provides:  %{name} = %{EVRD}
 
 %description -n %{libname}
 This package contains the shared library files.
@@ -35,6 +36,7 @@ This package contains the shared library files.
 %package -n %{devname}
 Summary:        Development files for %{name}
 Requires:	%{libname} = %{EVRD}
+Provides: %{name}-devel = %{EVRD}
 
 %description -n %{devname}
 This package contains development files for %{name}.

@@ -3,7 +3,7 @@
 %define devname %mklibname -d scenefx
 
 Name:     scenefx
-Version:  0.4.1
+Version:  0.5
 Release:  1
 Summary:  A drop-in wlroots replacement that allows eye-candy effects
 License:  MIT

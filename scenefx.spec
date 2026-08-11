@@ -1,4 +1,4 @@
-%define api 0.4
+%define api 0.5
 %define libname %mklibname scenefx
 %define devname %mklibname -d scenefx
 

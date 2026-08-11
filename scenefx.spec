@@ -16,7 +16,7 @@ BuildRequires: meson
 BuildRequires: glslang
 BuildRequires: pkgconfig(wayland-protocols) >= 1.27
 BuildRequires: pkgconfig(wayland-server) >= 1.22.0
-BuildRequires: pkgconfig(wlroots-0.19)
+BuildRequires: pkgconfig(wlroots-0.20)
 BuildRequires: pkgconfig(libdrm)
 BuildRequires: pkgconfig(glesv2)
 BuildRequires: pkgconfig(gbm)
